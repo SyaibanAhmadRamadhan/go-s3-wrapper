@@ -10,8 +10,8 @@ import (
 
 func (s *s3minio) PresignedUrlGetObject(ctx context.Context, input s3wrapper.PresignedUrlGetObjectInput) (output s3wrapper.PresignedUrlGetObjectOutput, err error) {
 	ctx, span := s.tracer.Start(ctx, "minio s3: Presigned Url Get Object", trace.WithAttributes(
-		attribute.String("s3.wrapper.minio.bucket.name", input.BucketName),
-		attribute.String("s3.wrapper.minio.object.name", input.ObjectName),
+		attribute.String("s3.minio.bucket.name", input.BucketName),
+		attribute.String("s3.minio.object.name", input.ObjectName),
 	))
 	defer span.End()
 

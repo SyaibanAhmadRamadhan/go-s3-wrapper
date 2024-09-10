@@ -3,7 +3,7 @@ module github.com/SyaibanAhmadRamadhan/go-s3-wrapper/minio
 go 1.22.5
 
 require (
-	github.com/SyaibanAhmadRamadhan/go-s3-wrapper v1.240901.1234 // indirect
+	github.com/SyaibanAhmadRamadhan/go-s3-wrapper v1.240910.1043 // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
 	github.com/go-logr/logr v1.4.2 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect

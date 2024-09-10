@@ -1,5 +1,7 @@
 github.com/SyaibanAhmadRamadhan/go-s3-wrapper v1.240901.1234 h1:RM6agYLvgK55nquDLk0/Ff7/etMRbMTBbnJ6BrmHm5U=
 github.com/SyaibanAhmadRamadhan/go-s3-wrapper v1.240901.1234/go.mod h1:se7qYbeALfCS8nLcSWBWOUacfCmn4levAIH3r53cZTc=
+github.com/SyaibanAhmadRamadhan/go-s3-wrapper v1.240910.1043 h1:mUHT4OnV1m5p82EB8IYkfWU336EUUeq1s0Wke7Xlu+k=
+github.com/SyaibanAhmadRamadhan/go-s3-wrapper v1.240910.1043/go.mod h1:se7qYbeALfCS8nLcSWBWOUacfCmn4levAIH3r53cZTc=
 github.com/felixge/httpsnoop v1.0.4 h1:NFTV2Zj1bL4mc9sqWACXbQFVBBg2W3GPvqp8/ESS2Wg=
 github.com/felixge/httpsnoop v1.0.4/go.mod h1:m8KPJKqk1gH5J9DgRY2ASl2lWCfGKXixSwevea8zH2U=
 github.com/go-logr/logr v1.2.2/go.mod h1:jdQByPbusPIv2/zmleS9BjJVeZ6kBagPoEUsqbVz/1A=

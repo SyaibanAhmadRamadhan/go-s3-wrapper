@@ -13,11 +13,11 @@ func (s *s3minio) PresignedUrlUploadObject(ctx context.Context, input s3wrapper.
 	expiredAt := time.Now().UTC().Add(input.Expired)
 
 	ctx, span := s.tracer.Start(ctx, "minio s3 - Presigned Url upload object", trace.WithAttributes(
-		attribute.String("s3.wrapper.minio.bucket.name", input.BucketName),
-		attribute.String("s3.wrapper.minio.object.name", input.Path),
-		attribute.String("s3.wrapper.minio.presigned.expired", expiredAt.Format(time.DateTime)),
-		attribute.String("s3.wrapper.minio.object.mime_type", input.MimeType),
-		attribute.String("s3.wrapper.minio.object.checksum_sha256", input.Checksum),
+		attribute.String("s3.minio.bucket.name", input.BucketName),
+		attribute.String("s3.minio.object.name", input.Path),
+		attribute.String("s3.minio.presigned.expired", expiredAt.Format(time.DateTime)),
+		attribute.String("s3.minio.object.mime_type", input.MimeType),
+		attribute.String("s3.minio.object.checksum_sha256", input.Checksum),
 	))
 	defer span.End()
 

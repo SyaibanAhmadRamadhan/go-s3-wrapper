@@ -1,0 +1,1 @@
+package s3_wrapper_minio

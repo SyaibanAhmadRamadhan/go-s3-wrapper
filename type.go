@@ -1,6 +1,9 @@
 package s3wrapper
 
-import "time"
+import (
+	"io"
+	"time"
+)
 
 type PresignedUrlUploadObjectInput struct {
 	BucketName string
@@ -26,4 +29,13 @@ type PresignedUrlGetObjectInput struct {
 
 type PresignedUrlGetObjectOutput struct {
 	URL string
+}
+
+type GetObjectInput struct {
+	ObjectName string
+	BucketName string
+}
+
+type GetObjectOutput struct {
+	Object io.ReadCloser
 }

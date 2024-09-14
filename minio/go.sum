@@ -1,5 +1,7 @@
 github.com/SyaibanAhmadRamadhan/go-s3-wrapper v1.240914.1111 h1:PQYOsxJUVxhW20o7N8hbSs9od7US8PGLkPUDAPVtRKc=
 github.com/SyaibanAhmadRamadhan/go-s3-wrapper v1.240914.1111/go.mod h1:se7qYbeALfCS8nLcSWBWOUacfCmn4levAIH3r53cZTc=
+github.com/SyaibanAhmadRamadhan/go-s3-wrapper v1.240914.1119 h1:mcqvTsEindoW9yc9KOpiwFpFVAFszsMSyPtBD2pg6Vo=
+github.com/SyaibanAhmadRamadhan/go-s3-wrapper v1.240914.1119/go.mod h1:se7qYbeALfCS8nLcSWBWOUacfCmn4levAIH3r53cZTc=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/dustin/go-humanize v1.0.1 h1:GzkhY7T5VNhEkwH0PVJgjz+fX1rhBrR7pRT3mDkpeCY=

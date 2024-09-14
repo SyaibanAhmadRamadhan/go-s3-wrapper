@@ -3,13 +3,13 @@ module github.com/SyaibanAhmadRamadhan/go-s3-wrapper/minio
 go 1.22.5
 
 require (
-	github.com/SyaibanAhmadRamadhan/go-s3-wrapper v1.240914.1114
 	github.com/minio/minio-go/v7 v7.0.76
 	go.opentelemetry.io/otel v1.29.0
 	go.opentelemetry.io/otel/trace v1.29.0
 )
 
 require (
+	github.com/SyaibanAhmadRamadhan/go-s3-wrapper v1.240914.1119 // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/go-ini/ini v1.67.0 // indirect
 	github.com/go-logr/logr v1.4.2 // indirect

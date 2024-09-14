@@ -1,2 +1,2 @@
 generate-mock:
-	mockgen -source=interface.go -destination=interface_mockgen.go -package=wsqlx
+	mockgen -source=interface.go -destination=interface_mockgen.go -package=s3wrapper

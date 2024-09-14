@@ -3,7 +3,7 @@ The Golang S3 Wrapper Library is a flexible and extensible wrapper around variou
 
 ## installation
 if you can use minio
-`go get github.com/SyaibanAhmadRamadhan/go-s3-wrapper/minio@v1.240910.1052`
+`go get github.com/SyaibanAhmadRamadhan/go-s3-wrapper/minio@v1.240914.1111`
 
 ## features
 - **Unified Interface**: Interact with multiple S3-compatible storage services through a consistent set of methods.
